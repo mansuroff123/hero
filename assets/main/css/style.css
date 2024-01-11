@@ -38,3 +38,19 @@
     font-weight: 800;
     src: url('assets/main/fonts/poppins-v20-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+:root {
+  --orange: #FFAE00;
+  --pink: #F3849F;
+}
+
+
+/* ------------------------- Home page section begin ------------------------- */
+
+.home {
+  background-color: #926FF6;
+  height: 70vh;
+}
+
+
+/* ------------------------- Home page section end ------------------------- */
