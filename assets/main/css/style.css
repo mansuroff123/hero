@@ -52,5 +52,37 @@
   height: 70vh;
 }
 
+.d_text {
+  font-family: 'Poppins', sans-serif, serif;
+}
+
+.small_title {
+  color: #FFE074;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.small_title_2 {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.332px;
+}
+
+.main_title {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 800;
+}
+
+.logo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nav_f {
+  color: #fff;
+}
+
 
 /* ------------------------- Home page section end ------------------------- */
