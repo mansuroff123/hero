@@ -115,3 +115,49 @@
 }
 
 /* ------------------------- About page section end ------------------------- */
+
+/* ------------------------- Icons page section begin ------------------------- */
+
+.icons_title {
+  color: #4F4F4F;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.icons_text {
+  color: #4F4F4F;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ------------------------- Icons page section end ------------------------- */
+
+
+/* ------------------------- Portfolio page section begin ------------------------- */
+
+.custom_btn {
+  color: #828282;
+  padding: 5px 18px;
+}
+
+.custom_btn:hover {
+  color: #fff;
+  background-color: var(--pink);
+  border-radius: 26px;
+}
+
+/* ------------------------- Portfolio page section end ------------------------- */
+
+/* ------------------------- News page section begin ------------------------- */
+
+.news {
+  background: #F7EEFF;
+}
+
+.news_title {
+  font-weight: 700;
+}
+
+/* ------------------------- News page section end ------------------------- */
+
+
