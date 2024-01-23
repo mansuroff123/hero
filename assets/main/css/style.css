@@ -44,7 +44,11 @@
   --pink: #F3849F;
 }
 
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* ------------------------- Home page section begin ------------------------- */
 
 .home {
@@ -154,10 +158,95 @@
   background: #F7EEFF;
 }
 
-.news_title {
+.news_title_1 {
   font-weight: 700;
+  color: var(--pink);
 }
+
+.news_title_2 {
+  font-weight: 700;
+  color: #926FF6;
+}
+
+.news_title_3 {
+  font-weight: 700;
+  color: #79CFFF;
+}
+
+.news_text {
+  font-weight: 500;
+  color: #4F4F4F;
+}
+
+
 
 /* ------------------------- News page section end ------------------------- */
 
+/* ------------------------- Footer section begin ------------------------- */
 
+footer {
+  background-color: #333333;
+}
+
+.f_text {
+  color: #F7EEFF;
+  font-size: 15px
+}
+
+/* ------------------------- Footer section end ------------------------- */
+
+
+/* ------------------------- Responsive section begin ------------------------- */
+
+/* ------------------------- Responsive section end ------------------------- */
+
+@media screen and (max-width: 768px) {
+  .small_title {
+    font-size: 14px;
+  }
+
+  .main_title {
+    font-size: 32px;
+  }
+
+  .home {
+    height: 80vh;
+  }
+
+  .icons_title {
+    font-size: 16px;
+  }
+  
+  .icons_text {
+    font-size: 12px;
+  }
+
+  .custom_btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .about_title {
+    font-size: 10px;
+  }
+  
+  .about_main_title {
+    font-size: 16px;
+  }
+
+  .news_title_1 {
+    font-size: 14px;
+  }
+  
+  .news_title_2 {
+    font-size: 14px;
+  }
+  
+  .news_title_3 {
+    font-size: 14px;
+  }
+  
+  .news_text {
+    font-size: 12px;
+  }
+}

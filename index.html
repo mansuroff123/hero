@@ -25,16 +25,16 @@
                         <a class="nav-link d_text active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link d_text" href="#">About</a>
+                        <a class="nav-link d_text" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link d_text" href="#">Portfolio</a>
+                        <a class="nav-link d_text" href="#portfolio">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link d_text" href="#">Blogs</a>
+                        <a class="nav-link d_text" href="#blogs">Blogs</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link d_text" href="#">Contact</a>
+                        <a class="nav-link d_text" href="#contact">Contact</a>
                       </li>
                   </div>
                 </div>
@@ -65,10 +65,12 @@
             <p class="about_text d_text">For instance, whenever I go back to the guest house during the morning to copy out the 
               contract, these gentlemen are always still sitting there eating their breakfasts.
             </p>
-            <a href="#" style="text-decoration: none;">
-              <img src="assets/main/img/play.png" alt="Play Video icon">
-              <span class="play d_text">Play Video</span>
-            </a>
+            <div class="d-flex justify-content-center justify-content-md-start my-3 my-md-0">
+              <a href="#" style="text-decoration: none;">
+                <img src="assets/main/img/play.png" alt="Play Video icon">
+                <span class="play d_text">Play Video</span>
+              </a>
+            </div>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center">
             <img src="assets/main/img/about.jpg" alt="About image">
@@ -80,18 +82,18 @@
     <!-- ########################## Icons page section begin ########################## -->
 
       <div class="icons my-5" style="background-color: #fff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 0px 100px 0px rgba(0, 0, 0, 0.05);border-radius: 3px;">
-        <div class="row py-5">
-          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-2">
+        <div class="row py-5 gap-3">
+          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-md-2 row-gap-1">
             <img src="assets/main/img/web_design.png" alt="web design icon">
             <h6 class="d_text icons_title">web design</h6>
             <p class="d_text icons_text">Research, user experience testing, mockups, and prototypes</p>
           </div>
-          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-2">
+          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-md-2 row-gap-1">
             <img src="assets/main/img/development.png" alt="development icon">
             <h6 class="d_text icons_title">development</h6>
             <p class="d_text icons_text">Research, user experience testing, mockups, and prototypes</p>
           </div>
-          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-2">
+          <div class="col-12 col-md-4 d-flex flex-column align-items-center text-center row-gap-md-2 row-gap-1">
             <img src="assets/main/img/research.png" alt="research icon">
             <h6 class="d_text icons_title">research</h6>
             <p class="d_text icons_text">Research, user experience testing, mockups, and prototypes</p>
@@ -105,7 +107,7 @@
 
     <!-- ########################## Portfolio page section begin ########################## -->
 
-      <div class="portfolio my-5">
+      <div class="portfolio my-5" id="portfolio">
         <h6 class="d_text about_title">Portfolio</h6>
         <h1 class="d_text about_main_title">Browse Our Projects</h1>
         <div class="custom_btns">
@@ -116,7 +118,7 @@
         </div>
 
 
-        <div class="row my-4">
+        <div class="row my-4 gap-3 gap-md-0">
           <div class="col-12 col-md-5">
             <img src="assets/main/img/Card.jpg" alt="gallery 1" width="100%" height="auto">
           </div>
@@ -147,34 +149,34 @@
 
   <!-- ########################## News page section begin ########################## -->
 
-  <div class="news">
-    <div class="container my-5 py-5">
+  <div class="news" id="blogs">
+    <div class="container mt-5 py-5">
       <h6 class="d_text about_title text-center">Updates & News</h6>
       <h1 class="d_text about_main_title text-center mb-5">Recent Blog Posts</h1>
 
-      <div class="row">
+      <div class="row gap-4 gap-md-0">
 
         <div class="col-12 col-md-4 d-grid gap-2 d-flex flex-column align-items-center">
-          <div style="width: 20rem;">
+          <div style="width: 20rem;" class="d-grid gap-1 gap-md-2">
             <img src="assets/main/img/blog.jpg" alt="blog img 1" width="100%" height="auto">
-            <h6>OPINION</h6>
-            <p>Why you should start using Figma for prototyping.</p>
+            <h6 class="news_title_1 d_text mt-2 mt-md-4">OPINION</h6>
+            <p class="news_text d_text">Why you should start using Figma for prototyping.</p>
           </div>
         </div>
 
         <div class="col-12 col-md-4 d-grid gap-2 d-flex flex-column align-items-center">
-          <div style="width: 20rem;">
+          <div style="width: 20rem;" class="d-grid gap-1 gap-md-2">
             <img src="assets/main/img/blog2.jpg" alt="blog img 2" width="100%" height="auto">
-            <h6>NEWS</h6>
-            <p>The top 10 Figma plugins that will increase your workflow by 200%.</p>
+            <h6 class="news_title_2 d_text mt-2 mt-md-4">NEWS</h6>
+            <p class="news_text d_text">The top 10 Figma plugins that will increase your workflow by 200%.</p>
           </div>
         </div>
 
         <div class="col-12 col-md-4 d-grid gap-2 d-flex flex-column align-items-center">
-          <div style="width: 20rem;">
+          <div style="width: 20rem;" class="d-grid gap-1 gap-md-2">
             <img src="assets/main/img/blog3.jpg" alt="blog img 3" width="100%" height="auto">
-            <h6>OPINION</h6>
-            <p>Why you should start using Figma for prototyping.</p>
+            <h6 class="news_title_3 d_text mt-2 mt-md-4">OPINION</h6>
+            <p class="news_text d_text">Why you should start using Figma for prototyping.</p>
           </div>
         </div>
         
@@ -183,6 +185,17 @@
   </div>
   
   <!-- ########################## News page section end ########################## -->
+
+
+  <!-- ########################## Footer section begin ########################## -->
+
+  <footer class="py-5" id="contact">
+    <p class="text-center d_text f_text">Copyright © 2020, Hero Header Inc.</p>
+    <div class="text-center"><img src="assets/main/img/share_24px.svg" alt="share icon"></div>
+  </footer>
+
+  <!-- ########################## Footer section end ########################## -->
+
     
 
     <script src="assets/vendor/js/bootstrap.bundle.js"></script>
