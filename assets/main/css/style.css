@@ -142,12 +142,13 @@
 .custom_btn {
   color: #828282;
   padding: 5px 18px;
+  border-radius: 26px;
+
 }
 
 .custom_btn:hover {
   color: #fff;
   background-color: var(--pink);
-  border-radius: 26px;
 }
 
 /* ------------------------- Portfolio page section end ------------------------- */
@@ -248,5 +249,25 @@ footer {
   
   .news_text {
     font-size: 12px;
+  }
+
+  .custom_card {
+    width: 14rem !important;
+  }
+  .custom_card {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .custom_card {
+    width: 14rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .custom_card {
+    width: 20rem !important;
   }
 }
